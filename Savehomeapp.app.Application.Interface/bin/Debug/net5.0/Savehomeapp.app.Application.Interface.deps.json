@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Savehomeapp.app.Application.Interface/1.0.0": {
+        "dependencies": {
+          "Savehomeapp.app.Application.DTO": "1.0.0",
+          "Savehomeapp.app.Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "Savehomeapp.app.Application.Interface.dll": {}
+        }
+      },
+      "Savehomeapp.app.Application.DTO/1.0.0": {
+        "runtime": {
+          "Savehomeapp.app.Application.DTO.dll": {}
+        }
+      },
+      "Savehomeapp.app.Transversal.Common/1.0.0": {
+        "runtime": {
+          "Savehomeapp.app.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Savehomeapp.app.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Savehomeapp.app.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Savehomeapp.app.Transversal.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

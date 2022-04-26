@@ -1,0 +1,12 @@
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\bin\Debug\net5.0\Savehomeapp.app.Application.DTO.deps.json
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\bin\Debug\net5.0\Savehomeapp.app.Application.DTO.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\bin\Debug\net5.0\ref\Savehomeapp.app.Application.DTO.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\bin\Debug\net5.0\Savehomeapp.app.Application.DTO.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Debug\net5.0\Savehomeapp.app.Application.DTO.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Debug\net5.0\Savehomeapp.app.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Debug\net5.0\Savehomeapp.app.Application.DTO.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Debug\net5.0\Savehomeapp.app.Application.DTO.AssemblyInfo.cs
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Debug\net5.0\Savehomeapp.app.Application.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Debug\net5.0\Savehomeapp.app.Application.DTO.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Debug\net5.0\ref\Savehomeapp.app.Application.DTO.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Debug\net5.0\Savehomeapp.app.Application.DTO.pdb

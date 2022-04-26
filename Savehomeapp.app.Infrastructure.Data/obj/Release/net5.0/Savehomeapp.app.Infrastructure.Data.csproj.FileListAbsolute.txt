@@ -1,0 +1,14 @@
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\bin\Release\net5.0\Savehomeapp.app.Infrastructure.Data.deps.json
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\bin\Release\net5.0\Savehomeapp.app.Infrastructure.Data.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\bin\Release\net5.0\ref\Savehomeapp.app.Infrastructure.Data.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\bin\Release\net5.0\Savehomeapp.app.Infrastructure.Data.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\bin\Release\net5.0\Savehomeapp.app.Transversal.Common.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\bin\Release\net5.0\Savehomeapp.app.Transversal.Common.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\obj\Release\net5.0\Savehomeapp.app.Infrastructure.Data.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\obj\Release\net5.0\Savehomeapp.app.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\obj\Release\net5.0\Savehomeapp.app.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\obj\Release\net5.0\Savehomeapp.app.Infrastructure.Data.AssemblyInfo.cs
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\obj\Release\net5.0\Savehomeapp.app.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\obj\Release\net5.0\Savehomeapp.app.Infrastructure.Data.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\obj\Release\net5.0\ref\Savehomeapp.app.Infrastructure.Data.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Data\obj\Release\net5.0\Savehomeapp.app.Infrastructure.Data.pdb

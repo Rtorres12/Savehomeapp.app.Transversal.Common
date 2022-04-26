@@ -1,0 +1,16 @@
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Savehomeapp.app.Application.Interface.deps.json
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Savehomeapp.app.Application.Interface.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\ref\Savehomeapp.app.Application.Interface.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Savehomeapp.app.Application.Interface.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Savehomeapp.app.Application.DTO.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Savehomeapp.app.Transversal.Common.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Savehomeapp.app.Application.DTO.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Savehomeapp.app.Transversal.Common.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Savehomeapp.app.Application.Interface.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Savehomeapp.app.Application.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Savehomeapp.app.Application.Interface.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Savehomeapp.app.Application.Interface.AssemblyInfo.cs
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Savehomeapp.app.Application.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Savehomeapp.app.Application.Interface.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\ref\Savehomeapp.app.Application.Interface.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Savehomeapp.app.Application.Interface.pdb

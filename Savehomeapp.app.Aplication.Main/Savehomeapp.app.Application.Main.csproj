@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Savehome.app.Domain.Entity\Savehomeapp.app.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Savehomeapp.app.Application.DTO\Savehomeapp.app.Application.DTO.csproj" />
+    <ProjectReference Include="..\Savehomeapp.app.Application.Interface\Savehomeapp.app.Application.Interface.csproj" />
+    <ProjectReference Include="..\Savehomeapp.app.Domain.Interface\Savehomeapp.app.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

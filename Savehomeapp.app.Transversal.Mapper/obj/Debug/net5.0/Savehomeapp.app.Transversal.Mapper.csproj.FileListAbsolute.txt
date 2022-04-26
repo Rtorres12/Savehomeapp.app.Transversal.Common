@@ -1,0 +1,17 @@
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.deps.json
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Debug\net5.0\ref\Savehomeapp.app.Transversal.Mapper.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Debug\net5.0\Savehomeapp.app.Application.DTO.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Debug\net5.0\Savehomeapp.app.Domain.Entity.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Debug\net5.0\Savehomeapp.app.Domain.Entity.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Debug\net5.0\Savehomeapp.app.Application.DTO.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.AssemblyInfo.cs
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.csproj.CopyComplete
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Debug\net5.0\ref\Savehomeapp.app.Transversal.Mapper.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Debug\net5.0\Savehomeapp.app.Transversal.Mapper.pdb

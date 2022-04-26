@@ -1,0 +1,150 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Savehomeapp.app.Application.Main/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "Savehomeapp.app.Application.DTO": "1.0.0",
+          "Savehomeapp.app.Application.Interface": "1.0.0",
+          "Savehomeapp.app.Domain.Entity": "1.0.0",
+          "Savehomeapp.app.Domain.Interface": "1.0.0",
+          "Savehomeapp.app.Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "Savehomeapp.app.Application.Main.dll": {}
+        }
+      },
+      "AutoMapper/11.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.0"
+          }
+        }
+      },
+      "Dapper/2.0.78": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.78.45418"
+          }
+        }
+      },
+      "Dapper.Contrib/2.0.78": {
+        "dependencies": {
+          "Dapper": "2.0.78"
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.Contrib.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.78.45418"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Savehomeapp.app.Application.DTO/1.0.0": {
+        "runtime": {
+          "Savehomeapp.app.Application.DTO.dll": {}
+        }
+      },
+      "Savehomeapp.app.Application.Interface/1.0.0": {
+        "dependencies": {
+          "Savehomeapp.app.Application.DTO": "1.0.0",
+          "Savehomeapp.app.Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "Savehomeapp.app.Application.Interface.dll": {}
+        }
+      },
+      "Savehomeapp.app.Domain.Entity/1.0.0": {
+        "dependencies": {
+          "Dapper.Contrib": "2.0.78"
+        },
+        "runtime": {
+          "Savehomeapp.app.Domain.Entity.dll": {}
+        }
+      },
+      "Savehomeapp.app.Domain.Interface/1.0.0": {
+        "dependencies": {
+          "Savehomeapp.app.Domain.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Savehomeapp.app.Domain.Interface.dll": {}
+        }
+      },
+      "Savehomeapp.app.Transversal.Common/1.0.0": {
+        "runtime": {
+          "Savehomeapp.app.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Savehomeapp.app.Application.Main/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/11.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
+      "path": "automapper/11.0.1",
+      "hashPath": "automapper.11.0.1.nupkg.sha512"
+    },
+    "Dapper/2.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
+      "path": "dapper/2.0.78",
+      "hashPath": "dapper.2.0.78.nupkg.sha512"
+    },
+    "Dapper.Contrib/2.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sUfDVIf8LlHNiz3MfUFodeyRiemfN1JFkPxYjCxFWlwNPg1iQ49mB+0E89TkywWs4X8fiRWOVDQgtH5FtzK5Kw==",
+      "path": "dapper.contrib/2.0.78",
+      "hashPath": "dapper.contrib.2.0.78.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Savehomeapp.app.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Savehomeapp.app.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Savehomeapp.app.Domain.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Savehomeapp.app.Domain.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Savehomeapp.app.Transversal.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.deps.json
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Debug\net5.0\ref\Savehomeapp.app.Infrastructure.Interface.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Debug\net5.0\Savehomeapp.app.Domain.Entity.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Debug\net5.0\Savehomeapp.app.Domain.Entity.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.AssemblyInfo.cs
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Debug\net5.0\ref\Savehomeapp.app.Infrastructure.Interface.dll
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.pdb
+C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Debug\net5.0\Savehomeapp.app.Infrastructure.Interface.csproj.CopyComplete

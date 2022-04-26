@@ -1,0 +1,343 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "AutoMapper/11.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {}
+        }
+      },
+      "Dapper/2.0.78": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {}
+        }
+      },
+      "Dapper.Contrib/2.0.78": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "2.0.78"
+        },
+        "compile": {
+          "lib/net5.0/Dapper.Contrib.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.Contrib.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Savehomeapp.app.Application.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Savehomeapp.app.Application.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Savehomeapp.app.Application.DTO.dll": {}
+        }
+      },
+      "Savehomeapp.app.Application.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Savehomeapp.app.Application.DTO": "1.0.0",
+          "Savehomeapp.app.Transversal.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Savehomeapp.app.Application.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Savehomeapp.app.Application.Interface.dll": {}
+        }
+      },
+      "Savehomeapp.app.Domain.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Dapper.Contrib": "2.0.78"
+        },
+        "compile": {
+          "bin/placeholder/Savehomeapp.app.Domain.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Savehomeapp.app.Domain.Entity.dll": {}
+        }
+      },
+      "Savehomeapp.app.Domain.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Savehomeapp.app.Domain.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Savehomeapp.app.Domain.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Savehomeapp.app.Domain.Interface.dll": {}
+        }
+      },
+      "Savehomeapp.app.Transversal.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Savehomeapp.app.Transversal.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Savehomeapp.app.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/11.0.1": {
+      "sha512": "WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
+      "type": "package",
+      "path": "automapper/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.11.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "Dapper/2.0.78": {
+      "sha512": "vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
+      "type": "package",
+      "path": "dapper/2.0.78",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.2.0.78.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Dapper.Contrib/2.0.78": {
+      "sha512": "sUfDVIf8LlHNiz3MfUFodeyRiemfN1JFkPxYjCxFWlwNPg1iQ49mB+0E89TkywWs4X8fiRWOVDQgtH5FtzK5Kw==",
+      "type": "package",
+      "path": "dapper.contrib/2.0.78",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.contrib.2.0.78.nupkg.sha512",
+        "dapper.contrib.nuspec",
+        "lib/net461/Dapper.Contrib.dll",
+        "lib/net461/Dapper.Contrib.xml",
+        "lib/net5.0/Dapper.Contrib.dll",
+        "lib/net5.0/Dapper.Contrib.xml",
+        "lib/netstandard2.0/Dapper.Contrib.dll",
+        "lib/netstandard2.0/Dapper.Contrib.xml"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Savehomeapp.app.Application.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Savehomeapp.app.Application.DTO/Savehomeapp.app.Application.DTO.csproj",
+      "msbuildProject": "../Savehomeapp.app.Application.DTO/Savehomeapp.app.Application.DTO.csproj"
+    },
+    "Savehomeapp.app.Application.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Savehomeapp.app.Application.Interface/Savehomeapp.app.Application.Interface.csproj",
+      "msbuildProject": "../Savehomeapp.app.Application.Interface/Savehomeapp.app.Application.Interface.csproj"
+    },
+    "Savehomeapp.app.Domain.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Savehome.app.Domain.Entity/Savehomeapp.app.Domain.Entity.csproj",
+      "msbuildProject": "../Savehome.app.Domain.Entity/Savehomeapp.app.Domain.Entity.csproj"
+    },
+    "Savehomeapp.app.Domain.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Savehomeapp.app.Domain.Interface/Savehomeapp.app.Domain.Interface.csproj",
+      "msbuildProject": "../Savehomeapp.app.Domain.Interface/Savehomeapp.app.Domain.Interface.csproj"
+    },
+    "Savehomeapp.app.Transversal.Common/1.0.0": {
+      "type": "project",
+      "path": "../Savehomeapp.app.Transversal.Common/Savehomeapp.app.Transversal.Common.csproj",
+      "msbuildProject": "../Savehomeapp.app.Transversal.Common/Savehomeapp.app.Transversal.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "AutoMapper >= 11.0.1",
+      "Savehomeapp.app.Application.DTO >= 1.0.0",
+      "Savehomeapp.app.Application.Interface >= 1.0.0",
+      "Savehomeapp.app.Domain.Entity >= 1.0.0",
+      "Savehomeapp.app.Domain.Interface >= 1.0.0",
+      "Savehomeapp.app.Transversal.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj",
+      "projectName": "Savehomeapp.app.Application.Main",
+      "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj",
+      "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
+              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj"
+            },
+            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj": {
+              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj"
+            },
+            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj": {
+              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj"
+            },
+            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj": {
+              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj"
+            },
+            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
+              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[11.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  savehomeapp.app.services.webapi:
+    image: ${DOCKER_REGISTRY-}savehomeappappserviceswebapi
+    build:
+      context: .
+      dockerfile: Savehomeapp.app.Services.WebApi/Dockerfile
