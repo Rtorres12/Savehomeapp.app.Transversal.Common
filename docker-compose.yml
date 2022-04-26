@@ -3,6 +3,26 @@ version: '3.4'
 services:
   savehomeapp.app.services.webapi:
     image: ${DOCKER_REGISTRY-}savehomeappappserviceswebapi
-    build:
-      context: .
-      dockerfile: Savehomeapp.app.Services.WebApi/Dockerfile
+    build: ./
+    ports:
+        - "9000:90"
+    environment:
+        SERVER: "sqlserver"
+        PORT: 1433
+        DATABASE: "Savehomebd"
+        USERNAME: "sa"
+        PASSWORD: ""
+        INTEGRATED_SECURITY: "true"
+    depends_on:
+        - database
+    links:
+    - "database"
+  database:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    hostname: "sqlserver"
+    environment:
+        SA_PASSWORD: ""
+        ACCEPT_EULA: "Y"
+            
+
+        
