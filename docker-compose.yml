@@ -3,7 +3,9 @@ version: '3.4'
 services:
   savehomeapp.app.services.webapi:
     image: ${DOCKER_REGISTRY-}savehomeappappserviceswebapi
-    build: ./
+    build: 
+        context: app
+        dockerfile: Dockerfile
     ports:
         - "9000:90"
     environment:

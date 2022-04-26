@@ -1,0 +1,41 @@
+name: dockercompose1967046574113286504
+services:
+  database:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: ""
+    hostname: sqlserver
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      default: null
+  savehomeapp.app.services.webapi:
+    build:
+      context: app
+      dockerfile: Dockerfile
+    depends_on:
+      database:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DATABASE: Savehomebd
+      INTEGRATED_SECURITY: "true"
+      PASSWORD: ""
+      PORT: "1433"
+      SERVER: sqlserver
+      USERNAME: sa
+    image: savehomeappappserviceswebapi
+    links:
+    - database
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 90
+      published: "9000"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose1967046574113286504_default
