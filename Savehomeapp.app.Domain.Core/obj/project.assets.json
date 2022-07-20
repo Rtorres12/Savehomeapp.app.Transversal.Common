@@ -23,43 +23,43 @@
           "lib/net5.0/Dapper.Contrib.dll": {}
         }
       },
-      "Savehomeapp.app.Domain.Entity/1.0.0": {
+      "Exphadis.app.Domain.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Dapper.Contrib": "2.0.78"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Domain.Entity.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Entity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Domain.Entity.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Entity.dll": {}
         }
       },
-      "Savehomeapp.app.Domain.Interface/1.0.0": {
+      "Exphadis.app.Domain.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Savehomeapp.app.Domain.Entity": "1.0.0"
+          "Exphadis.app.Domain.Entity": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Domain.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Interface.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Domain.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Interface.dll": {}
         }
       },
-      "Savehomeapp.app.Infrastructure.Interface/1.0.0": {
+      "Exphadis.app.Infrastructure.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Savehomeapp.app.Domain.Entity": "1.0.0"
+          "Exphadis.app.Domain.Entity": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Infrastructure.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Infrastructure.Interface.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Infrastructure.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Infrastructure.Interface.dll": {}
         }
       }
     }
@@ -99,43 +99,43 @@
         "lib/netstandard2.0/Dapper.Contrib.xml"
       ]
     },
-    "Savehomeapp.app.Domain.Entity/1.0.0": {
+    "Exphadis.app.Domain.Entity/1.0.0": {
       "type": "project",
-      "path": "../Savehome.app.Domain.Entity/Savehomeapp.app.Domain.Entity.csproj",
-      "msbuildProject": "../Savehome.app.Domain.Entity/Savehomeapp.app.Domain.Entity.csproj"
+      "path": "../Savehome.app.Domain.Entity/Exphadis.app.Domain.Entity.csproj",
+      "msbuildProject": "../Savehome.app.Domain.Entity/Exphadis.app.Domain.Entity.csproj"
     },
-    "Savehomeapp.app.Domain.Interface/1.0.0": {
+    "Exphadis.app.Domain.Interface/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Domain.Interface/Savehomeapp.app.Domain.Interface.csproj",
-      "msbuildProject": "../Savehomeapp.app.Domain.Interface/Savehomeapp.app.Domain.Interface.csproj"
+      "path": "../Savehomeapp.app.Domain.Interface/Exphadis.app.Domain.Interface.csproj",
+      "msbuildProject": "../Savehomeapp.app.Domain.Interface/Exphadis.app.Domain.Interface.csproj"
     },
-    "Savehomeapp.app.Infrastructure.Interface/1.0.0": {
+    "Exphadis.app.Infrastructure.Interface/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Infrastructure.Interface/Savehomeapp.app.Infrastructure.Interface.csproj",
-      "msbuildProject": "../Savehomeapp.app.Infrastructure.Interface/Savehomeapp.app.Infrastructure.Interface.csproj"
+      "path": "../Savehomeapp.app.Infrastructure.Interface/Exphadis.app.Infrastructure.Interface.csproj",
+      "msbuildProject": "../Savehomeapp.app.Infrastructure.Interface/Exphadis.app.Infrastructure.Interface.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Savehomeapp.app.Domain.Entity >= 1.0.0",
-      "Savehomeapp.app.Domain.Interface >= 1.0.0",
-      "Savehomeapp.app.Infrastructure.Interface >= 1.0.0"
+      "Exphadis.app.Domain.Entity >= 1.0.0",
+      "Exphadis.app.Domain.Interface >= 1.0.0",
+      "Exphadis.app.Infrastructure.Interface >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\": {}
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Savehomeapp.app.Domain.Core.csproj",
-      "projectName": "Savehomeapp.app.Domain.Core",
-      "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Savehomeapp.app.Domain.Core.csproj",
-      "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\obj\\",
+      "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Exphadis.app.Domain.Core.csproj",
+      "projectName": "Exphadis.app.Domain.Core",
+      "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Exphadis.app.Domain.Core.csproj",
+      "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+      "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -149,14 +149,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj"
             }
           }
         }
@@ -185,7 +185,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

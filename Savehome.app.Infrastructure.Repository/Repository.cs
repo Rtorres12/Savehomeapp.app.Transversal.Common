@@ -7,22 +7,23 @@ using System.Threading.Tasks;
 using Dapper;
 using Dapper.Contrib.Extensions;
 using Savehomeapp.app.Infrastructure.Interface;
-
+using Savehomeapp.app.Transversal.Common;
 
 namespace Savehomeapp.app.Infrastructure.Repository
 {
-    public class Repository<T> : IRepository<T> where T: class
+    public class Repository<T> : IRepository<T> where T : class
     {
-        protected string _connectionString;
+        private readonly IConnectionFactory _connectionFactory;
 
-        public Repository(string _connectionString)
+
+        public Repository(IConnectionFactory connectionFactory)
         {
             SqlMapperExtensions.TableNameMapper = (type) => { return $"[{type.Name}]"; };
-            this._connectionString = _connectionString;
+            _connectionFactory = connectionFactory;
         }
         public virtual bool Delete(T entity)
         {
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = _connectionFactory.GetConnection)
             {
                 return connection.Delete(entity);
             }
@@ -31,7 +32,7 @@ namespace Savehomeapp.app.Infrastructure.Repository
 
         public virtual T GetById(Int64 id)
         {
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = _connectionFactory.GetConnection)
             {
                 return connection.Get<T>((Int64)id);
             }
@@ -40,7 +41,7 @@ namespace Savehomeapp.app.Infrastructure.Repository
 
         public virtual IEnumerable<T> GetList()
         {
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = _connectionFactory.GetConnection)
             {
                 return connection.GetAll<T>();
             }
@@ -49,7 +50,7 @@ namespace Savehomeapp.app.Infrastructure.Repository
 
         public virtual int Insert(T entity)
         {
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = _connectionFactory.GetConnection)
             {
                 return (int)connection.Insert(entity);
             }
@@ -60,7 +61,7 @@ namespace Savehomeapp.app.Infrastructure.Repository
 
         public virtual bool Update(T entity)
         {
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = _connectionFactory.GetConnection)
             {
                 return connection.Update(entity);
             }
@@ -69,7 +70,7 @@ namespace Savehomeapp.app.Infrastructure.Repository
 
 
 
- 
+
     }
 }
 

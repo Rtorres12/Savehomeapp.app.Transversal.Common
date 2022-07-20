@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Savehome.app.Domain.Entity\Exphadis.app.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Savehomeapp.app.Application.DTO\Exphadis.app.Application.DTO.csproj" />
+    <ProjectReference Include="..\Savehomeapp.app.Application.Interface\Exphadis.app.Application.Interface.csproj" />
+    <ProjectReference Include="..\Savehomeapp.app.Domain.Interface\Exphadis.app.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Savehomeapp.app.Transversal.Common\Exphadis.app.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

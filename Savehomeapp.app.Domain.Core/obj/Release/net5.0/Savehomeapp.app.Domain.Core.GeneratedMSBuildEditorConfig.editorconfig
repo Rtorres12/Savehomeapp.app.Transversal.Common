@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Savehomeapp.app.Domain.Core
-build_property.ProjectDir = C:\Users\Rodrigo\source\repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Domain.Core\
+build_property.ProjectDir = C:\Users\Rodrigo\Source\Repos\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Domain.Core\

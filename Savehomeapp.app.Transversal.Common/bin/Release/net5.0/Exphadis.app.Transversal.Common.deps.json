@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Exphadis.app.Transversal.Common/1.0.0": {
+        "runtime": {
+          "Exphadis.app.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exphadis.app.Transversal.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

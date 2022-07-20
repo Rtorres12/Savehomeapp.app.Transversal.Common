@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {}
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj",
         "projectName": "Savehomeapp.app.Transversal.Common",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",

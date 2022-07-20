@@ -48,6 +48,21 @@
           "lib/net5.0/Dapper.Contrib.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -131,6 +146,79 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/6.19.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/6.19.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "6.19.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Logging/6.19.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "6.19.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/6.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "6.7.1",
+          "Microsoft.IdentityModel.Tokens": "6.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "6.7.1",
+          "System.IdentityModel.Tokens.Jwt": "6.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/6.19.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.IdentityModel.Logging": "6.19.0",
+          "System.Security.Cryptography.Cng": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {
@@ -294,6 +382,19 @@
           }
         }
       },
+      "System.IdentityModel.Tokens.Jwt/6.19.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "6.19.0",
+          "Microsoft.IdentityModel.Tokens": "6.19.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -325,6 +426,21 @@
           }
         }
       },
+      "System.Security.Cryptography.Cng/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
@@ -344,157 +460,157 @@
           }
         }
       },
-      "Savehomeapp.app.Application.DTO/1.0.0": {
+      "Exphadis.app.Application.DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Application.DTO.dll": {}
+          "bin/placeholder/Exphadis.app.Application.DTO.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Application.DTO.dll": {}
+          "bin/placeholder/Exphadis.app.Application.DTO.dll": {}
         }
       },
-      "Savehomeapp.app.Application.Interface/1.0.0": {
+      "Exphadis.app.Application.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Savehomeapp.app.Application.DTO": "1.0.0",
-          "Savehomeapp.app.Transversal.Common": "1.0.0"
+          "Exphadis.app.Application.DTO": "1.0.0",
+          "Exphadis.app.Transversal.Common": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Application.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Application.Interface.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Application.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Application.Interface.dll": {}
         }
       },
-      "Savehomeapp.app.Application.Main/1.0.0": {
+      "Exphadis.app.Application.Main/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "Savehomeapp.app.Application.DTO": "1.0.0",
-          "Savehomeapp.app.Application.Interface": "1.0.0",
-          "Savehomeapp.app.Domain.Entity": "1.0.0",
-          "Savehomeapp.app.Domain.Interface": "1.0.0",
-          "Savehomeapp.app.Transversal.Common": "1.0.0"
+          "Exphadis.app.Application.DTO": "1.0.0",
+          "Exphadis.app.Application.Interface": "1.0.0",
+          "Exphadis.app.Domain.Entity": "1.0.0",
+          "Exphadis.app.Domain.Interface": "1.0.0",
+          "Exphadis.app.Transversal.Common": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Application.Main.dll": {}
+          "bin/placeholder/Exphadis.app.Application.Main.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Application.Main.dll": {}
+          "bin/placeholder/Exphadis.app.Application.Main.dll": {}
         }
       },
-      "Savehomeapp.app.Domain.Core/1.0.0": {
+      "Exphadis.app.Domain.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Savehomeapp.app.Domain.Entity": "1.0.0",
-          "Savehomeapp.app.Domain.Interface": "1.0.0",
-          "Savehomeapp.app.Infrastructure.Interface": "1.0.0"
+          "Exphadis.app.Domain.Entity": "1.0.0",
+          "Exphadis.app.Domain.Interface": "1.0.0",
+          "Exphadis.app.Infrastructure.Interface": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Domain.Core.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Domain.Core.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Core.dll": {}
         }
       },
-      "Savehomeapp.app.Domain.Entity/1.0.0": {
+      "Exphadis.app.Domain.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Dapper.Contrib": "2.0.78"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Domain.Entity.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Entity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Domain.Entity.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Entity.dll": {}
         }
       },
-      "Savehomeapp.app.Domain.Interface/1.0.0": {
+      "Exphadis.app.Domain.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Savehomeapp.app.Domain.Entity": "1.0.0"
+          "Exphadis.app.Domain.Entity": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Domain.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Interface.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Domain.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Domain.Interface.dll": {}
         }
       },
-      "Savehomeapp.app.Infrastructure.Data/1.0.0": {
+      "Exphadis.app.Infrastructure.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Exphadis.app.Transversal.Common": "1.0.0",
           "Microsoft.Extensions.Configuration": "6.0.1",
-          "Savehomeapp.app.Transversal.Common": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Infrastructure.Data.dll": {}
+          "bin/placeholder/Exphadis.app.Infrastructure.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Infrastructure.Data.dll": {}
+          "bin/placeholder/Exphadis.app.Infrastructure.Data.dll": {}
         }
       },
-      "Savehomeapp.app.Infrastructure.Interface/1.0.0": {
+      "Exphadis.app.Infrastructure.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Savehomeapp.app.Domain.Entity": "1.0.0"
+          "Exphadis.app.Domain.Entity": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Infrastructure.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Infrastructure.Interface.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Infrastructure.Interface.dll": {}
+          "bin/placeholder/Exphadis.app.Infrastructure.Interface.dll": {}
         }
       },
-      "Savehomeapp.app.Infrastructure.Repository/1.0.0": {
+      "Exphadis.app.Infrastructure.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Dapper": "2.0.123",
           "Dapper.Contrib": "2.0.78",
-          "Savehomeapp.app.Infrastructure.Data": "1.0.0",
-          "Savehomeapp.app.Infrastructure.Interface": "1.0.0",
-          "Savehomeapp.app.Transversal.Common": "1.0.0"
+          "Exphadis.app.Infrastructure.Data": "1.0.0",
+          "Exphadis.app.Infrastructure.Interface": "1.0.0",
+          "Exphadis.app.Transversal.Common": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Infrastructure.Repository.dll": {}
+          "bin/placeholder/Exphadis.app.Infrastructure.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Infrastructure.Repository.dll": {}
+          "bin/placeholder/Exphadis.app.Infrastructure.Repository.dll": {}
         }
       },
-      "Savehomeapp.app.Transversal.Common/1.0.0": {
+      "Exphadis.app.Transversal.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Transversal.Common.dll": {}
+          "bin/placeholder/Exphadis.app.Transversal.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Transversal.Common.dll": {}
+          "bin/placeholder/Exphadis.app.Transversal.Common.dll": {}
         }
       },
-      "Savehomeapp.app.Transversal.Mapper/1.0.0": {
+      "Exphadis.app.Transversal.Mapper/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "Savehomeapp.app.Application.DTO": "1.0.0",
-          "Savehomeapp.app.Domain.Entity": "1.0.0"
+          "Exphadis.app.Application.DTO": "1.0.0",
+          "Exphadis.app.Domain.Entity": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Transversal.Mapper.dll": {}
+          "bin/placeholder/Exphadis.app.Transversal.Mapper.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Transversal.Mapper.dll": {}
+          "bin/placeholder/Exphadis.app.Transversal.Mapper.dll": {}
         }
       }
     }
@@ -562,6 +678,21 @@
         "lib/net5.0/Dapper.Contrib.xml",
         "lib/netstandard2.0/Dapper.Contrib.dll",
         "lib/netstandard2.0/Dapper.Contrib.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.17": {
+      "sha512": "jXMB2+jOG9JvGVCjsKvc5Bo1iSgzdbQw+Iq3BM+eIZ1inDg8rnEVUcWKpRevi9Z6F1/UnSJZ0+rhElT2/aVhhQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -767,6 +898,116 @@
         "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.IdentityModel.Abstractions/6.19.0": {
+      "sha512": "SNDIcIdXeclk8lcwUtZMijCxBZ44krYG9at6kQMuds6I7zkiVvfYwOp394zI8tXFFDXu49Q6XFFTS59Exgw6xA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.abstractions/6.19.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net45/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net461/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net472/Microsoft.IdentityModel.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.xml",
+        "microsoft.identitymodel.abstractions.6.19.0.nupkg.sha512",
+        "microsoft.identitymodel.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/6.19.0": {
+      "sha512": "PMk1mP88y/dv6n1j9Xa6Go6Kl1bNsV4Z5+fmnd4FAOKtYFIGJOSN2VadCPqvm7h7FEPBlpqtbRr4yccefnBSoQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.jsonwebtokens/6.19.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net45/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "microsoft.identitymodel.jsonwebtokens.6.19.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/6.19.0": {
+      "sha512": "773vzDzuwg+v+Jvsa+HOSPAZmMl1KztszdBErBPlXvNxZCvL52FrYlQblI6m1f3Pr9DtQt8jCI0RG6b1MajLgg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/6.19.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Logging.dll",
+        "lib/net45/Microsoft.IdentityModel.Logging.xml",
+        "lib/net461/Microsoft.IdentityModel.Logging.dll",
+        "lib/net461/Microsoft.IdentityModel.Logging.xml",
+        "lib/net472/Microsoft.IdentityModel.Logging.dll",
+        "lib/net472/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
+        "microsoft.identitymodel.logging.6.19.0.nupkg.sha512",
+        "microsoft.identitymodel.logging.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Protocols/6.7.1": {
+      "sha512": "DVGYIRUK3TkCTmz0IgBzWUE55CDNfLtXil1FgSbgHI7hi2fP2pz4tiTAno/5O/hdVwAzV+HtCQtFi7xW8smaHw==",
+      "type": "package",
+      "path": "microsoft.identitymodel.protocols/6.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net45/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net461/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net461/Microsoft.IdentityModel.Protocols.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.xml",
+        "microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
+        "microsoft.identitymodel.protocols.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.7.1": {
+      "sha512": "99gA+E6ZOCqySrT80Yh6wrfjJfeMxDisdAcA5Q66zHxMPY5Gzc8aT2Ldzu0GP1sADv/o3yI1Gc3P1GHXlXAVVQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.protocols.openidconnect/6.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net45/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
+        "microsoft.identitymodel.protocols.openidconnect.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/6.19.0": {
+      "sha512": "kmEuZo1+Q4CJIprBVOcZQ18to3WUbPaYE9HRAoK0hEhoh8cH0uA8oOOjff4N2gQ/gk79QrAJTbh0RI7vIZU7vA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/6.19.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net45/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net461/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net461/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net472/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net472/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
+        "microsoft.identitymodel.tokens.6.19.0.nupkg.sha512",
+        "microsoft.identitymodel.tokens.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
@@ -1141,6 +1382,25 @@
         "version.txt"
       ]
     },
+    "System.IdentityModel.Tokens.Jwt/6.19.0": {
+      "sha512": "iQwoziWm2ilFGlBnImQmB5RFwAoIEIp2QbQi2Wm0PJLhQfo80VhFzsPEiuhCkDvVkN1/D5Y++/GjBck27qP30w==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/6.19.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
+        "system.identitymodel.tokens.jwt.6.19.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -1212,6 +1472,69 @@
         "version.txt"
       ]
     },
+    "System.Security.Cryptography.Cng/4.5.0": {
+      "sha512": "WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
+      "type": "package",
+      "path": "system.security.cryptography.cng/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.Cng.dll",
+        "lib/net461/System.Security.Cryptography.Cng.dll",
+        "lib/net462/System.Security.Cryptography.Cng.dll",
+        "lib/net47/System.Security.Cryptography.Cng.dll",
+        "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard1.4/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard1.6/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Cng.dll",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.Cng.dll",
+        "ref/net461/System.Security.Cryptography.Cng.dll",
+        "ref/net461/System.Security.Cryptography.Cng.xml",
+        "ref/net462/System.Security.Cryptography.Cng.dll",
+        "ref/net462/System.Security.Cryptography.Cng.xml",
+        "ref/net47/System.Security.Cryptography.Cng.dll",
+        "ref/net47/System.Security.Cryptography.Cng.xml",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Cng.dll",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Cng.xml",
+        "ref/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "ref/netcoreapp2.1/System.Security.Cryptography.Cng.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.Cng.dll",
+        "ref/netstandard1.4/System.Security.Cryptography.Cng.dll",
+        "ref/netstandard1.6/System.Security.Cryptography.Cng.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.Cng.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.Cng.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/net462/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/net47/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netstandard1.4/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.cryptography.cng.4.5.0.nupkg.sha512",
+        "system.security.cryptography.cng.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Security.Principal.Windows/4.7.0": {
       "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "type": "package",
@@ -1266,95 +1589,97 @@
         "version.txt"
       ]
     },
-    "Savehomeapp.app.Application.DTO/1.0.0": {
+    "Exphadis.app.Application.DTO/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Application.DTO/Savehomeapp.app.Application.DTO.csproj",
-      "msbuildProject": "../Savehomeapp.app.Application.DTO/Savehomeapp.app.Application.DTO.csproj"
+      "path": "../Savehomeapp.app.Application.DTO/Exphadis.app.Application.DTO.csproj",
+      "msbuildProject": "../Savehomeapp.app.Application.DTO/Exphadis.app.Application.DTO.csproj"
     },
-    "Savehomeapp.app.Application.Interface/1.0.0": {
+    "Exphadis.app.Application.Interface/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Application.Interface/Savehomeapp.app.Application.Interface.csproj",
-      "msbuildProject": "../Savehomeapp.app.Application.Interface/Savehomeapp.app.Application.Interface.csproj"
+      "path": "../Savehomeapp.app.Application.Interface/Exphadis.app.Application.Interface.csproj",
+      "msbuildProject": "../Savehomeapp.app.Application.Interface/Exphadis.app.Application.Interface.csproj"
     },
-    "Savehomeapp.app.Application.Main/1.0.0": {
+    "Exphadis.app.Application.Main/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Aplication.Main/Savehomeapp.app.Application.Main.csproj",
-      "msbuildProject": "../Savehomeapp.app.Aplication.Main/Savehomeapp.app.Application.Main.csproj"
+      "path": "../Savehomeapp.app.Aplication.Main/Exphadis.app.Application.Main.csproj",
+      "msbuildProject": "../Savehomeapp.app.Aplication.Main/Exphadis.app.Application.Main.csproj"
     },
-    "Savehomeapp.app.Domain.Core/1.0.0": {
+    "Exphadis.app.Domain.Core/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Domain.Core/Savehomeapp.app.Domain.Core.csproj",
-      "msbuildProject": "../Savehomeapp.app.Domain.Core/Savehomeapp.app.Domain.Core.csproj"
+      "path": "../Savehomeapp.app.Domain.Core/Exphadis.app.Domain.Core.csproj",
+      "msbuildProject": "../Savehomeapp.app.Domain.Core/Exphadis.app.Domain.Core.csproj"
     },
-    "Savehomeapp.app.Domain.Entity/1.0.0": {
+    "Exphadis.app.Domain.Entity/1.0.0": {
       "type": "project",
-      "path": "../Savehome.app.Domain.Entity/Savehomeapp.app.Domain.Entity.csproj",
-      "msbuildProject": "../Savehome.app.Domain.Entity/Savehomeapp.app.Domain.Entity.csproj"
+      "path": "../Savehome.app.Domain.Entity/Exphadis.app.Domain.Entity.csproj",
+      "msbuildProject": "../Savehome.app.Domain.Entity/Exphadis.app.Domain.Entity.csproj"
     },
-    "Savehomeapp.app.Domain.Interface/1.0.0": {
+    "Exphadis.app.Domain.Interface/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Domain.Interface/Savehomeapp.app.Domain.Interface.csproj",
-      "msbuildProject": "../Savehomeapp.app.Domain.Interface/Savehomeapp.app.Domain.Interface.csproj"
+      "path": "../Savehomeapp.app.Domain.Interface/Exphadis.app.Domain.Interface.csproj",
+      "msbuildProject": "../Savehomeapp.app.Domain.Interface/Exphadis.app.Domain.Interface.csproj"
     },
-    "Savehomeapp.app.Infrastructure.Data/1.0.0": {
+    "Exphadis.app.Infrastructure.Data/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Infrastructure.Data/Savehomeapp.app.Infrastructure.Data.csproj",
-      "msbuildProject": "../Savehomeapp.app.Infrastructure.Data/Savehomeapp.app.Infrastructure.Data.csproj"
+      "path": "../Savehomeapp.app.Infrastructure.Data/Exphadis.app.Infrastructure.Data.csproj",
+      "msbuildProject": "../Savehomeapp.app.Infrastructure.Data/Exphadis.app.Infrastructure.Data.csproj"
     },
-    "Savehomeapp.app.Infrastructure.Interface/1.0.0": {
+    "Exphadis.app.Infrastructure.Interface/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Infrastructure.Interface/Savehomeapp.app.Infrastructure.Interface.csproj",
-      "msbuildProject": "../Savehomeapp.app.Infrastructure.Interface/Savehomeapp.app.Infrastructure.Interface.csproj"
+      "path": "../Savehomeapp.app.Infrastructure.Interface/Exphadis.app.Infrastructure.Interface.csproj",
+      "msbuildProject": "../Savehomeapp.app.Infrastructure.Interface/Exphadis.app.Infrastructure.Interface.csproj"
     },
-    "Savehomeapp.app.Infrastructure.Repository/1.0.0": {
+    "Exphadis.app.Infrastructure.Repository/1.0.0": {
       "type": "project",
-      "path": "../Savehome.app.Infrastructure.Repository/Savehomeapp.app.Infrastructure.Repository.csproj",
-      "msbuildProject": "../Savehome.app.Infrastructure.Repository/Savehomeapp.app.Infrastructure.Repository.csproj"
+      "path": "../Savehome.app.Infrastructure.Repository/Exphadis.app.Infrastructure.Repository.csproj",
+      "msbuildProject": "../Savehome.app.Infrastructure.Repository/Exphadis.app.Infrastructure.Repository.csproj"
     },
-    "Savehomeapp.app.Transversal.Common/1.0.0": {
+    "Exphadis.app.Transversal.Common/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Transversal.Common/Savehomeapp.app.Transversal.Common.csproj",
-      "msbuildProject": "../Savehomeapp.app.Transversal.Common/Savehomeapp.app.Transversal.Common.csproj"
+      "path": "../Savehomeapp.app.Transversal.Common/Exphadis.app.Transversal.Common.csproj",
+      "msbuildProject": "../Savehomeapp.app.Transversal.Common/Exphadis.app.Transversal.Common.csproj"
     },
-    "Savehomeapp.app.Transversal.Mapper/1.0.0": {
+    "Exphadis.app.Transversal.Mapper/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Transversal.Mapper/Savehomeapp.app.Transversal.Mapper.csproj",
-      "msbuildProject": "../Savehomeapp.app.Transversal.Mapper/Savehomeapp.app.Transversal.Mapper.csproj"
+      "path": "../Savehomeapp.app.Transversal.Mapper/Exphadis.app.Transversal.Mapper.csproj",
+      "msbuildProject": "../Savehomeapp.app.Transversal.Mapper/Exphadis.app.Transversal.Mapper.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "Exphadis.app.Application.DTO >= 1.0.0",
+      "Exphadis.app.Application.Interface >= 1.0.0",
+      "Exphadis.app.Application.Main >= 1.0.0",
+      "Exphadis.app.Domain.Core >= 1.0.0",
+      "Exphadis.app.Domain.Entity >= 1.0.0",
+      "Exphadis.app.Domain.Interface >= 1.0.0",
+      "Exphadis.app.Infrastructure.Data >= 1.0.0",
+      "Exphadis.app.Infrastructure.Interface >= 1.0.0",
+      "Exphadis.app.Infrastructure.Repository >= 1.0.0",
+      "Exphadis.app.Transversal.Common >= 1.0.0",
+      "Exphadis.app.Transversal.Mapper >= 1.0.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.17",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1",
-      "Savehomeapp.app.Application.DTO >= 1.0.0",
-      "Savehomeapp.app.Application.Interface >= 1.0.0",
-      "Savehomeapp.app.Application.Main >= 1.0.0",
-      "Savehomeapp.app.Domain.Core >= 1.0.0",
-      "Savehomeapp.app.Domain.Entity >= 1.0.0",
-      "Savehomeapp.app.Domain.Interface >= 1.0.0",
-      "Savehomeapp.app.Infrastructure.Data >= 1.0.0",
-      "Savehomeapp.app.Infrastructure.Interface >= 1.0.0",
-      "Savehomeapp.app.Infrastructure.Repository >= 1.0.0",
-      "Savehomeapp.app.Transversal.Common >= 1.0.0",
-      "Savehomeapp.app.Transversal.Mapper >= 1.0.0",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "System.IdentityModel.Tokens.Jwt >= 6.19.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\": {}
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj",
-      "projectName": "Savehomeapp.app.Services.WebApi",
-      "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj",
-      "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\obj\\",
+      "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Exphadis.app.Services.WebApi.csproj",
+      "projectName": "Exphadis.app.Services.WebApi",
+      "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Exphadis.app.Services.WebApi.csproj",
+      "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+      "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1368,38 +1693,38 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Exphadis.app.Infrastructure.Repository.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Exphadis.app.Infrastructure.Repository.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Savehomeapp.app.Domain.Core.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Savehomeapp.app.Domain.Core.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Exphadis.app.Domain.Core.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Exphadis.app.Domain.Core.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj"
             },
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Exphadis.app.Transversal.Mapper.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Exphadis.app.Transversal.Mapper.csproj"
             }
           }
         }
@@ -1422,6 +1747,10 @@
             "target": "Package",
             "version": "[11.0.0, )"
           },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[5.0.17, )"
+          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.11.1, )"
@@ -1429,6 +1758,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"
+          },
+          "System.IdentityModel.Tokens.Jwt": {
+            "target": "Package",
+            "version": "[6.19.0, )"
           }
         },
         "imports": [
@@ -1449,7 +1782,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

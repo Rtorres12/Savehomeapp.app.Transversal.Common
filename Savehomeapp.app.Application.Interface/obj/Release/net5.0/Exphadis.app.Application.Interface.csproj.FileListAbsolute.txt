@@ -1,0 +1,17 @@
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Exphadis.app.Application.Interface.deps.json
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Exphadis.app.Application.Interface.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Exphadis.app.Application.Interface.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Exphadis.app.Application.DTO.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Exphadis.app.Transversal.Common.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Exphadis.app.Application.DTO.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\bin\Release\net5.0\Exphadis.app.Transversal.Common.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Exphadis.app.Application.Interface.csproj.AssemblyReference.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Exphadis.app.Application.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Exphadis.app.Application.Interface.AssemblyInfoInputs.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Exphadis.app.Application.Interface.AssemblyInfo.cs
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Exphadis.app.Application.Interface.csproj.CoreCompileInputs.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Exphadis.app.Application.Interface.csproj.CopyComplete
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Exphadis.app.Application.Interface.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\refint\Exphadis.app.Application.Interface.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\Exphadis.app.Application.Interface.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.Interface\obj\Release\net5.0\ref\Exphadis.app.Application.Interface.dll

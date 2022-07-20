@@ -1,0 +1,12 @@
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\bin\Release\net5.0\Exphadis.app.Application.DTO.deps.json
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\bin\Release\net5.0\Exphadis.app.Application.DTO.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\bin\Release\net5.0\Exphadis.app.Application.DTO.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Release\net5.0\Exphadis.app.Application.DTO.csproj.AssemblyReference.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Release\net5.0\Exphadis.app.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Release\net5.0\Exphadis.app.Application.DTO.AssemblyInfoInputs.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Release\net5.0\Exphadis.app.Application.DTO.AssemblyInfo.cs
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Release\net5.0\Exphadis.app.Application.DTO.csproj.CoreCompileInputs.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Release\net5.0\Exphadis.app.Application.DTO.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Release\net5.0\refint\Exphadis.app.Application.DTO.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Release\net5.0\Exphadis.app.Application.DTO.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Application.DTO\obj\Release\net5.0\ref\Exphadis.app.Application.DTO.dll

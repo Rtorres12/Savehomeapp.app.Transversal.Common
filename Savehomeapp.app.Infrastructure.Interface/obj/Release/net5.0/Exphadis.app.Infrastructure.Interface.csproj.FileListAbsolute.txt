@@ -1,0 +1,15 @@
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Release\net5.0\Exphadis.app.Infrastructure.Interface.deps.json
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Release\net5.0\Exphadis.app.Infrastructure.Interface.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Release\net5.0\Exphadis.app.Infrastructure.Interface.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Release\net5.0\Exphadis.app.Domain.Entity.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\bin\Release\net5.0\Exphadis.app.Domain.Entity.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\Exphadis.app.Infrastructure.Interface.csproj.AssemblyReference.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\Exphadis.app.Infrastructure.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\Exphadis.app.Infrastructure.Interface.AssemblyInfoInputs.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\Exphadis.app.Infrastructure.Interface.AssemblyInfo.cs
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\Exphadis.app.Infrastructure.Interface.csproj.CoreCompileInputs.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\Exphadis.app.Infrastructure.Interface.csproj.CopyComplete
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\Exphadis.app.Infrastructure.Interface.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\refint\Exphadis.app.Infrastructure.Interface.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\Exphadis.app.Infrastructure.Interface.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Infrastructure.Interface\obj\Release\net5.0\ref\Exphadis.app.Infrastructure.Interface.dll

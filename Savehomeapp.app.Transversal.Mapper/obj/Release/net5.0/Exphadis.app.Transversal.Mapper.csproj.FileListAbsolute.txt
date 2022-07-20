@@ -1,0 +1,17 @@
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Release\net5.0\Exphadis.app.Transversal.Mapper.deps.json
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Release\net5.0\Exphadis.app.Transversal.Mapper.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Release\net5.0\Exphadis.app.Transversal.Mapper.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Release\net5.0\Exphadis.app.Application.DTO.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Release\net5.0\Exphadis.app.Domain.Entity.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Release\net5.0\Exphadis.app.Domain.Entity.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\bin\Release\net5.0\Exphadis.app.Application.DTO.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\Exphadis.app.Transversal.Mapper.csproj.AssemblyReference.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\Exphadis.app.Transversal.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\Exphadis.app.Transversal.Mapper.AssemblyInfoInputs.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\Exphadis.app.Transversal.Mapper.AssemblyInfo.cs
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\Exphadis.app.Transversal.Mapper.csproj.CoreCompileInputs.cache
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\Exphadis.app.Transversal.Mapper.csproj.CopyComplete
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\Exphadis.app.Transversal.Mapper.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\refint\Exphadis.app.Transversal.Mapper.dll
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\Exphadis.app.Transversal.Mapper.pdb
+C:\Savehomeapp.app.Transversal.Common\Savehomeapp.app.Transversal.Mapper\obj\Release\net5.0\ref\Exphadis.app.Transversal.Mapper.dll

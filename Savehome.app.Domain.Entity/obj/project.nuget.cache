@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LkimJu2YsqKBmQ67XhhLzhgMs7WMPWTE2ppFx3h1bzGIVWMPBbQbo6wSQEHIqaAoibXkjI8GDa68ufLRClp1QA==",
+  "dgSpecHash": "UYlgHA3i5F3OvPGOTiHidkg9Bdtir9J8kMXSPwtdMcXmKSdsTts+sqWMT0fmM1xgt3ji6z0LfHMTy47N59r9mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj",
+  "projectFilePath": "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
   ],
   "logs": []
 }

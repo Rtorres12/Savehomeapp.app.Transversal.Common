@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj": {}
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj",
-        "projectName": "Savehomeapp.app.Domain.Entity",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj",
+        "projectName": "Exphadis.app.Domain.Entity",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj",
         "projectName": "Savehomeapp.app.Infrastructure.Repository",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,14 +88,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj",
-        "projectName": "Savehomeapp.app.Application.Main",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj",
+        "projectName": "Exphadis.app.Application.Main",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,20 +162,20 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
               }
             }
           }
@@ -214,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj",
-        "projectName": "Savehomeapp.app.Application.DTO",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj",
+        "projectName": "Exphadis.app.Application.DTO",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -268,14 +268,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj",
-        "projectName": "Savehomeapp.app.Application.Interface",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj",
+        "projectName": "Exphadis.app.Application.Interface",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -292,11 +292,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
               }
             }
           }
@@ -329,14 +329,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Savehomeapp.app.Domain.Core.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Exphadis.app.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Savehomeapp.app.Domain.Core.csproj",
-        "projectName": "Savehomeapp.app.Domain.Core",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Savehomeapp.app.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Exphadis.app.Domain.Core.csproj",
+        "projectName": "Exphadis.app.Domain.Core",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Exphadis.app.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -353,14 +353,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj"
               }
             }
           }
@@ -393,14 +393,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj",
-        "projectName": "Savehomeapp.app.Domain.Interface",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj",
+        "projectName": "Exphadis.app.Domain.Interface",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -417,8 +417,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
               }
             }
           }
@@ -451,14 +451,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj",
-        "projectName": "Savehomeapp.app.Infrastructure.Data",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj",
+        "projectName": "Exphadis.app.Infrastructure.Data",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -475,8 +475,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
               }
             }
           }
@@ -519,14 +519,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj",
-        "projectName": "Savehomeapp.app.Infrastructure.Interface",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj",
+        "projectName": "Exphadis.app.Infrastructure.Interface",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -543,8 +543,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
               }
             }
           }
@@ -577,14 +577,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj",
         "projectName": "Savehomeapp.app.Services.WebApi",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\Savehomeapp.app.Services.WebApi.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Services.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -601,38 +601,38 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Infrastructure.Repository\\Savehomeapp.app.Infrastructure.Repository.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Savehomeapp.app.Application.Interface.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Savehomeapp.app.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Savehomeapp.app.Domain.Core.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Exphadis.app.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Core\\Exphadis.app.Domain.Core.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Savehomeapp.app.Domain.Interface.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Savehomeapp.app.Infrastructure.Interface.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Interface\\Exphadis.app.Infrastructure.Interface.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj"
               }
             }
           }
@@ -686,14 +686,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj",
         "projectName": "Savehomeapp.app.Transversal.Common",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -740,14 +740,14 @@
         }
       }
     },
-    "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj": {
+    "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj",
         "projectName": "Savehomeapp.app.Transversal.Mapper",
-        "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj",
+        "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\Savehomeapp.app.Transversal.Mapper.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -764,11 +764,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Savehomeapp.app.Domain.Entity.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
               },
-              "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj": {
-                "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj"
+              "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo\\Source\\Repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj"
               }
             }
           }

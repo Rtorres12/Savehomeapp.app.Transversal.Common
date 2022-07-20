@@ -1,0 +1,371 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj": {}
+  },
+  "projects": {
+    "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj",
+        "projectName": "Exphadis.app.Domain.Entity",
+        "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+        "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj",
+        "projectName": "Exphadis.app.Application.Main",
+        "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj",
+        "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+        "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+                "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
+              },
+              "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj": {
+                "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj"
+              },
+              "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj": {
+                "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj"
+              },
+              "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj": {
+                "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj"
+              },
+              "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj": {
+                "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj",
+        "projectName": "Exphadis.app.Application.DTO",
+        "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj",
+        "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+        "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj",
+        "projectName": "Exphadis.app.Application.Interface",
+        "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\Exphadis.app.Application.Interface.csproj",
+        "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+        "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj": {
+                "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj"
+              },
+              "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj": {
+                "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj",
+        "projectName": "Exphadis.app.Domain.Interface",
+        "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\Exphadis.app.Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+        "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Domain.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj": {
+                "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehome.app.Domain.Entity\\Exphadis.app.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj",
+        "projectName": "Exphadis.app.Transversal.Common",
+        "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj",
+        "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+        "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

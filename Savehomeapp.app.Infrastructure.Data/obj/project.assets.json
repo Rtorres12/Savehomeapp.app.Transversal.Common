@@ -183,14 +183,14 @@
           }
         }
       },
-      "Savehomeapp.app.Transversal.Common/1.0.0": {
+      "Exphadis.app.Transversal.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Savehomeapp.app.Transversal.Common.dll": {}
+          "bin/placeholder/Exphadis.app.Transversal.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Savehomeapp.app.Transversal.Common.dll": {}
+          "bin/placeholder/Exphadis.app.Transversal.Common.dll": {}
         }
       }
     }
@@ -597,33 +597,33 @@
         "version.txt"
       ]
     },
-    "Savehomeapp.app.Transversal.Common/1.0.0": {
+    "Exphadis.app.Transversal.Common/1.0.0": {
       "type": "project",
-      "path": "../Savehomeapp.app.Transversal.Common/Savehomeapp.app.Transversal.Common.csproj",
-      "msbuildProject": "../Savehomeapp.app.Transversal.Common/Savehomeapp.app.Transversal.Common.csproj"
+      "path": "../Savehomeapp.app.Transversal.Common/Exphadis.app.Transversal.Common.csproj",
+      "msbuildProject": "../Savehomeapp.app.Transversal.Common/Exphadis.app.Transversal.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Exphadis.app.Transversal.Common >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 6.0.1",
-      "Savehomeapp.app.Transversal.Common >= 1.0.0",
       "System.Data.SqlClient >= 4.8.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\": {}
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj",
-      "projectName": "Savehomeapp.app.Infrastructure.Data",
-      "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Savehomeapp.app.Infrastructure.Data.csproj",
-      "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\obj\\",
+      "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj",
+      "projectName": "Exphadis.app.Infrastructure.Data",
+      "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\Exphadis.app.Infrastructure.Data.csproj",
+      "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+      "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Infrastructure.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -637,8 +637,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common.csproj"
+            "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj": {
+              "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Transversal.Common\\Exphadis.app.Transversal.Common.csproj"
             }
           }
         }
@@ -677,7 +677,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

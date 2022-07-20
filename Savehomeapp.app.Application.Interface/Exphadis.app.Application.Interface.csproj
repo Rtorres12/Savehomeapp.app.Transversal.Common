@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Savehomeapp.app.Application.DTO\Exphadis.app.Application.DTO.csproj" />
+    <ProjectReference Include="..\Savehomeapp.app.Transversal.Common\Exphadis.app.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

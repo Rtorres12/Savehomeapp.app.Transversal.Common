@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dQqpo+W3HFsGDoW93KDKvbrqSBeHCeNB3m4ECJQqj/LnZDC2ijbia8ZjTPjPmUOYshlY4dX5DZpMzjiEBHR/yA==",
+  "dgSpecHash": "hEq+H4eFnCykSgyvQCTQuBFFKokzU72RjLoYaBKXgAnpZ2W9eJfAyV4J9ywd1haru0KdtJtJoECRWO52Ztk6bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Savehomeapp.app.Application.Main.csproj",
+  "projectFilePath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Aplication.Main\\Exphadis.app.Application.Main.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

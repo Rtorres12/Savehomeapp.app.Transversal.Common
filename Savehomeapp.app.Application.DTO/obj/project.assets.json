@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\": {}
+    "C:\\Users\\RODRIGO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj",
-      "projectName": "Savehomeapp.app.Application.DTO",
-      "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Savehomeapp.app.Application.DTO.csproj",
-      "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\obj\\",
+      "projectUniqueName": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj",
+      "projectName": "Exphadis.app.Application.DTO",
+      "projectPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\Exphadis.app.Application.DTO.csproj",
+      "packagesPath": "C:\\Users\\RODRIGO\\.nuget\\packages\\",
+      "outputPath": "C:\\Savehomeapp.app.Transversal.Common\\Savehomeapp.app.Application.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RODRIGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

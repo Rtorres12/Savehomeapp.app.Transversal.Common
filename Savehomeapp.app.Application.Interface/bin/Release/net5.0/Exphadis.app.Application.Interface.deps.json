@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Exphadis.app.Application.Interface/1.0.0": {
+        "dependencies": {
+          "Exphadis.app.Application.DTO": "1.0.0",
+          "Exphadis.app.Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "Exphadis.app.Application.Interface.dll": {}
+        }
+      },
+      "Exphadis.app.Application.DTO/1.0.0": {
+        "runtime": {
+          "Exphadis.app.Application.DTO.dll": {}
+        }
+      },
+      "Exphadis.app.Transversal.Common/1.0.0": {
+        "runtime": {
+          "Exphadis.app.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exphadis.app.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exphadis.app.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exphadis.app.Transversal.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
